@@ -1,0 +1,51 @@
+.header {
+    top:5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+    z-index: 2;
+    border-bottom: solid 1px #555555;
+}
+
+.common {
+    position: absolute;
+}
+
+.mainbody {
+    top: 114px;
+    bottom: 64px;
+    left: 114px;
+    right:114px;
+    padding-right: 5px;
+}
+
+.footer {
+    bottom: 5px;
+    height: 30px;
+    left: 5px;
+    right: 5px;
+    font-size: 20px;
+    color: #999999;
+    text-align: center;
+    position: fixed;
+}
+
+.subheader {
+    float: right;
+}
+
+.justify {text-align: justify;}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(22, 14, 14);
+    background-color: rgb(205, 204, 204);
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {font-weight: bold;
+font-size: large;}
